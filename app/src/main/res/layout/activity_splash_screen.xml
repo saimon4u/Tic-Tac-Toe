@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121514"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#BFBBBB"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:scaleX="5"
+        android:scaleY="5"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_animation" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="© Saimon"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="#686565"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+
+</LinearLayout>
